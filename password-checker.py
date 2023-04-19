@@ -1,4 +1,3 @@
-
 import termios
 import sys
 import tty
@@ -29,4 +28,4 @@ def masked_input(prompt):
 name = input('Enter your user name: ')
 password = masked_input('Enter your password: ')
 secret = len(password) * '*'
-print(secret)
+print(f'{name}, your user password is {password}')
