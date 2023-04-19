@@ -8,4 +8,4 @@ def crop_yield(carl, weight):
         result +=x*w
     return result
 
-crop_yield(carl, weight)       
+print(crop_yield(carl, weight))       

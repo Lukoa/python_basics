@@ -12,9 +12,8 @@ new_text=re.sub(word, 'farm', text)
 print(new_text)
 '''
 def is_valid_email(emails):
-    pattern=r'^[a-zA-Z0-9+%_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    pattern=r'^[a-zA-Z0-9+%_-.]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     return re.match(pattern, emails) is not None
-
 #max_emails=5
 emails=input('Enter an email address: ')
 #separator=r'/'
